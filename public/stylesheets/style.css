@@ -1,8 +1,50 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+@font-face {
+    font-family: 'amnestiadistressed';
+    src: url('/images/fonts/amnestia-webfont.woff2') format('woff2'),
+         url('/images/fonts/amnestia-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
-a {
-  color: #00B7FF;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color:#020304;
+    color:#541F14;
+    color:#626266;
+    color: #938172;
+    color:#CC9E61;    
+    font-family:'amnestiadistressed';
+  }
+  .contenedor{
+    background-color: #541F14;
+  }
+  .nuevesesentapx{
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  nav ul{
+    display: flex;
+    font-size: 1.5rem;
+    padding: 0;
+  }
+  nav ul li{
+    width: 20%;
+    text-align: center;
+    list-style: none;
+  }
+  nav ul li a{
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+    color: #938172;
+  }
+  nav ul li a:hover{
+    background-color: #020304;
+}
+  footer{
+    background-color: #626266;
+    padding: 25px 0;
+    text-align: center;
+    clear: both;
 }
