@@ -1,12 +1,9 @@
 /* comienzo del incio*/
 
-figure img{
+section img{
   padding-top: 72px;
   width: 100%;
   margin: 0;
-}
-html{
-  scroll-behavior: smooth;
 }
 
 /* fin de incio*/
@@ -39,10 +36,6 @@ html{
 /* fin de sobre-mi */
 /* comienzo de galeria*/
 
-
-.tendencias {
-  background-color: red;
-}
 .tendenciaimg1{
   grid-area: img1;
 }
@@ -72,7 +65,6 @@ html{
   grid-area: img9;
 }
 .tendencia{
-  padding-top: 80px;
   display: inline-grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
@@ -108,9 +100,18 @@ html{
 }
 
 /* incio de contactanos */
-
-.mapa{
+.contactanos{
   text-align: center;
+}
+.contactanos ul{
+  padding: 0;
+}
+.contactanos ul li{
+  list-style: none;
+}
+.contactanos ul li a .fa-whatsapp-square {
+  color:#00bb2d;
+  font-size: 3rem;
 }
 
 /* fin de contactanos */

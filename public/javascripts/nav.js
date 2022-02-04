@@ -1,7 +1,7 @@
 // indicador de menú
 
-const secciones = document.querySelectorAll('.seccion')
-const menuitem = document.querySelectorAll('.menu_item')
+const secciones = document.querySelectorAll('section')
+const menuitem = document.querySelectorAll('nav ul li')
 
 const functionObserver = entries =>{
     entries.forEach(entry=>{
@@ -18,9 +18,8 @@ const functionObserver = entries =>{
 } 
 const observer = new IntersectionObserver(functionObserver,{
     root: null,
-    rootMargin:"30%"
-    ,
-    threshold: 0.8
+    rootMargin:"30% 0px 70% 0px",
+    threshold: 1
 })
 
 secciones.forEach(seccion=> observer.observe(seccion))

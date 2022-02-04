@@ -14,7 +14,12 @@
     text-align: center;
     margin: 50px auto;
   }
-  
+  html{
+    scroll-behavior: smooth;
+  }
+  section[id]{
+    scroll-margin-top: 80px;
+  }
   /* comienzo del header*/
   
   header {
