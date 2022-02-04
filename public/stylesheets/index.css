@@ -100,6 +100,15 @@ section img{
 }
 
 /* incio de contactanos */
+.contacto{
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+  border-right: black solid 2px;
+}
+.contacto table{
+  margin-left: 60px;
+}
 .contactanos{
   text-align: center;
 }
@@ -111,7 +120,27 @@ section img{
 }
 .contactanos ul li a .fa-whatsapp-square {
   color:#00bb2d;
-  font-size: 3rem;
+  font-size: 4rem;
 }
-
+.contactanos table, td, th{
+  border-bottom:1px solid black ;
+  border-collapse: collapse;
+  text-align: start;
+  padding: 5px 5px 5px 0;
+  font-size: 1.5rem;
+}
+tr:nth-child(odd){
+  background-color: rgb(180, 180, 180);
+}
+td:nth-child(odd){
+  padding: 0px 35px 0px 0;
+}
+.ubicacion{
+  width: 50%;
+  box-sizing: border-box;
+  float:right;
+}
+.mapa{
+  max-width: 100%;
+}
 /* fin de contactanos */
